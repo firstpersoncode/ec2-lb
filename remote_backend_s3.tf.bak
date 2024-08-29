@@ -1,0 +1,7 @@
+terraform {
+  backend "s3" {
+    bucket = "dev-jenkins-remote-state-bucket-66996699"
+    key    = "devops-project-1/jenkins/terraform.tfstate"
+    region = "ap-southeast-1"
+  }
+}

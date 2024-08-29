@@ -1,0 +1,6 @@
+.terraform
+errored.tfstate
+errored.tfstate.backup
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
